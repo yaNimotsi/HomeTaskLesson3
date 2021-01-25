@@ -18,11 +18,15 @@ namespace Task1
                 for (int j = 0; j < range; j++)
                 {
                     arr[i, j] = rand.Next(100);
+                    Console.Write(arr[i, j] + " ");
                 }
-                Console.WriteLine(arr[i, i]);
+                Console.WriteLine();
             }
 
-
+            for (int i = 0; i < range; i++)
+            {
+                Console.WriteLine(arr[i, i]);
+            }
         }
     }
 }
